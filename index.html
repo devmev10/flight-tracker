@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Tracker</title>
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Searh Form -->
+    <form action="">
+        <input type="text" placeholder="Airline (eg. Emirates)">
+        <input type="text" placeholder="Flight Number (eg. UAE109)">
+        <input type="date">
+        <input type="submit" value="Search Flight">
+    </form>
+    <!-- Header -->
+    <header>
+        <h3>Flight No. + Airline</h3>
+        <h3>Departure Airport</h3>
+        <img src="#" alt="An Airplane icon">
+        <h3>Arrival Airport</h3>
+        <h3>On-Time Status</h3>
+    </header>
+    <!--Main-->
+    <main>
+        <section class="main-sec1">
+            <div class="div1">
+                <span>Departure</span>
+                <span>Los Angeles International</span>
+                <span>IATA: LAX * ICAO: KLAX</span>
+            </div>
+
+            <div class="div2">
+                <div class="box">
+                    <span>Scheduled</span>
+                    <span>15-SEP-2022 23:00:00</span>
+                </div>
+                <div class="box">
+                    <span>Estimated</span>
+                    <span>15-SEP-2022 23:30:00</span>
+                </div>
+                <div class="box">
+                    <span>Actual</span>
+                    <span>15-SEP-2022 23:34:00</span>
+                </div>
+                <div class="box">
+                    <span>Runway</span>
+                    <span>15-SEP-2022 23:34:00</span>
+                </div>
+            </div>
+
+            <div class="div3">
+                <div class="small-box">
+                    <span>Terminal = 7</span>
+                    <span>Gate = 73</span>
+                </div>
+                <div class="small-box"></div>
+            </div>
+            
+
+        </section>
+        <section class="main-sec2">
+            <div class="div1">
+                <span>Arrival</span>
+                <span>Logan International</span>
+                <span>IATA: BOS * ICAO: KBOS</span>
+            </div>
+
+            <div class="div2">
+                <div class="box">
+                    <span>Scheduled</span>
+                    <span>16-SEP-2022 23:00:00</span>
+                </div>
+                <div class="box">
+                    <span>Estimated</span>
+                    <span>16-SEP-2022 23:30:00</span>
+                </div>
+                <div class="box">
+                    <span>Actual</span>
+                    <span>16-SEP-2022 23:34:00</span>
+                </div>
+                <div class="box">
+                    <span>Runway</span>
+                    <span>16-SEP-2022 23:34:00</span>
+                </div>
+            </div>
+
+            <div class="div3">
+                <div class="small-box">
+                    <span>Terminal = B</span>
+                    <span>Gate = B27</span>
+                </div>
+                <div class="small-box"></div>
+            </div>
+        </section>
+    </main>
+
+    <!--Section-->
+    <section class="bottom">
+        <section class="bottom-sec1">
+            <h5>Aircraft Location</h5>
+            <h6>Lattitude: <span></span></h6>
+            <h6>Longitude: <span></span></h6>
+            <h6>Altitude: <span></span></h6>
+            <h6>Direction: <span></span></h6>
+        </section>
+        <section class="bottom-sec2">
+            <h5>Aircraft Speed</h5>
+            <h6>Horizontal: <span></span></h6>
+            <h6>Vertical: <span></span></h6>
+        </section>
+        <section class="bottom-sec3">
+            <h5>Aircraft Type</h5>
+            <h6>Registration: <span></span></h6>
+            <h6>IATA: <span></span></h6>
+            <h6>ICAO: <span></span></h6>
+            <h6>ICAO24: <span></span></h6>
+        </section>
+        <section class="bottom-sec4">
+            <h5>Airline</h5>
+            <h6>Airline name: <span></span></h6>
+            <h6>IATA: <span></span></h6>
+            <h6>ICAO: <span></span></h6>
+
+        </section>
+    </section>
+    <!--Footer-->
+    <footer>
+        <h5>Departure timezone: <span></span></h5>
+        <h5>Arrival timezone: <span></span></h5>
+    </footer>
+
+    
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
